@@ -1,4 +1,4 @@
-FROM arm32v7/openjdk:8-jdk-alpine:latest
+FROM arm32v7/openjdk:8-jdk
 
 LABEL version latest
 LABEL description Sonatype Nexus Repository Container
