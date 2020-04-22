@@ -1,5 +1,4 @@
-FROM paperinik/rpi-java8:latest
-MAINTAINER Bruno Cardoso Cantisano <bruno.cantisano@gmail.com>
+FROM arm32v7/openjdk:8-jdk-alpine:latest
 
 LABEL version latest
 LABEL description Sonatype Nexus Repository Container
